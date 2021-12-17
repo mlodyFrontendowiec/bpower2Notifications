@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.MenuBar?>
+<VBox fx:controller="com.example.bpower2notifications.NotificationController"  fx:id="root"  xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <MenuBar>
+        <menus>
+            <Menu text="Ustawienia">
+                <items>
+                    <MenuItem text="Ustawienia aplikacji" fx:id="settings"  />
+                </items>
+            </Menu>
+        </menus>
+    </MenuBar>
+<StackPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"    >
+</StackPane>
+</VBox>
